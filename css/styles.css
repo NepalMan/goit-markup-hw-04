@@ -170,6 +170,14 @@ body {
 
 .title {
   background-color: var(--btn-color);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/title-bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -223,6 +231,15 @@ body {
 .principles-item {
   width: calc((100% - 72px) / 4);
   justify-content: center;
+}
+
+.principles-icon {
+  width: 264px;
+  height: 112px;
+  display: flex;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .principles-item-header {
