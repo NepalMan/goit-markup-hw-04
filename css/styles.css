@@ -389,12 +389,23 @@ body {
 }
 
 .customers-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 72px;
 }
 
 .customers-item {
 }
 
 .customers-item-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }
 
 /*---------------------FOOTER------------------------*/
@@ -409,7 +420,7 @@ body {
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -431,6 +442,7 @@ body {
 }
 
 .footer-text {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -438,6 +450,22 @@ body {
   color: var(--background-color);
   max-width: 264px;
   margin: 0;
+}
+
+.social-media {
+}
+
+.team-soc-list {
+}
+
+.social-media-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 /*---------------------PORTFOLIO------------------------*/
