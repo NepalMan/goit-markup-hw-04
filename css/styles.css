@@ -369,6 +369,14 @@ body {
   align-items: center;
 }
 
+.team-soc-link:hover {
+  background-color: #31d0aa;
+}
+
+.team-soc-link:focus {
+  background-color: #31d0aa;
+}
+
 .team-soc-icon {
 }
 
@@ -452,20 +460,55 @@ body {
   margin: 0;
 }
 
-.social-media {
+.footer-item-container {
+  display: flex;
 }
 
-.team-soc-list {
+.footer-logo-wrap {
+}
+
+.social-media {
+  margin-left: 120px;
 }
 
 .social-media-title {
-  display: flex;
-  justify-content: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.social-media-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-media-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-media-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-link:hover {
+  background-color: #31d0aa;
+}
+
+.social-media-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-media-icon {
 }
 
 /*---------------------PORTFOLIO------------------------*/
